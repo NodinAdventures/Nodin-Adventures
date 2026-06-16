@@ -125,7 +125,7 @@ exports.handler = async (event) => {
       },
       body: JSON.stringify({
         personalizations: [{ to: [{ email: OWNER_EMAIL }] }],
-        from:    { email: "noreply@nodinadventures.com", name: "Nodin Adventures Bookings" },
+        from:    { email: "info@nodinadventures.com", name: "Nodin Adventures Bookings" },
         reply_to: { email },
         subject: `📬 New Inquiry: ${name} — ${date || "Date TBD"}`,
         content: [{ type: "text/html", value: ownerHtml }]
