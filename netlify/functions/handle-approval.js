@@ -110,7 +110,7 @@ exports.handler = async (event) => {
         headers: { Authorization: `Bearer ${SENDGRID_KEY}`, "Content-Type": "application/json" },
         body: JSON.stringify({
           personalizations: [{ to: [{ email }] }],
-          from:    { email: "noreply@nodinadventures.com", name: "Nodin Adventures" },
+          from:    { email: "info@nodinadventures.com", name: "Nodin Adventures" },
           reply_to: { email: OWNER_EMAIL },
           subject: "✓ Your Nodin Adventures Booking is Confirmed!",
           content: [{ type: "text/html", value: customerHtml }]
