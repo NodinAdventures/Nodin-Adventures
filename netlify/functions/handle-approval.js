@@ -5,7 +5,7 @@
 // Requires env vars: NETLIFY_ACCESS_TOKEN, NETLIFY_SITE_ID, SENDGRID_API_KEY
 
 const ACCOUNT_SLUG = "info-qdkwtxq";
-const OWNER_EMAIL  = process.env.OWNER_EMAIL || "info@nodinadventures.com";
+const OWNER_EMAIL  = process.env.OWNER_EMAIL || "Ashleyp369@gmail.com";
 const SITE_URL     = "https://nodinadventures.com";
 
 exports.handler = async (event) => {
