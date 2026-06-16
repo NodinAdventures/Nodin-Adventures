@@ -8,7 +8,7 @@
 //   OWNER_EMAIL           — defaults to info@nodinadventures.com
 
 const ACCOUNT_SLUG  = "info-qdkwtxq";
-const OWNER_EMAIL   = process.env.OWNER_EMAIL || "info@nodinadventures.com";
+const OWNER_EMAIL   = process.env.OWNER_EMAIL || "Ashleyp369@gmail.com";
 const SITE_URL      = "https://nodinadventures.com";
 
 exports.handler = async (event) => {
