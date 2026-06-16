@@ -9,7 +9,7 @@
 
 const ACCOUNT_SLUG  = "info-qdkwtxq";
 const OWNER_EMAIL   = process.env.OWNER_EMAIL || "Ashleyp369@gmail.com";
-const SITE_URL      = "https://nodinadventures.com";
+const SITE_URL      = "https://tourmaline-douhua-4c963b.netlify.app";
 
 exports.handler = async (event) => {
   if (event.httpMethod !== "POST") {
