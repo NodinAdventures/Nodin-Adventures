@@ -1,4 +1,4 @@
-const OWNER_EMAIL = "Info@nodinAdventures.com";
+const OWNER_EMAIL = "Ashleyp369@gmail.com";
 const SITE_URL    = "https://nodinadventures.com";
 const SENDGRID_KEY = "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";
 
