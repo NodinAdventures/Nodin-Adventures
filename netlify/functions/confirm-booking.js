@@ -1,6 +1,6 @@
 const OWNER_EMAIL = "Ashleyp369@gmail.com";
 const SITE_URL    = "https://nodinadventures.com";
-const SENDGRID_KEY = "process.env.SENDGRID_API_KEY;";
+const SENDGRID_KEY = process.env.SENDGRID_API_KEY;
 
 exports.handler = async (event) => {
   if (event.httpMethod !== "POST") return { statusCode: 405, body: "Method Not Allowed" };
