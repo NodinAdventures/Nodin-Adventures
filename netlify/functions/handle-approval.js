@@ -158,7 +158,7 @@ exports.handler = async (event) => {
   <div class="body">
     <p>Hi <strong>${firstName}</strong>,</p>
     <p>Thank you so much for your interest in Nodin Adventures! Unfortunately, we're unable to accommodate your request for <strong>${date}</strong> at this time.</p>
-    <p>We'd love to find another date that works for you. Someone from Nodin Adventures will contact you shortly, or feel free to call us at 231-299-1295 </a> — we're happy to help find the right adventure for you and your group.</p>
+    <p>We'd love to find another date that works for you. We’d love to find another time that works for you. Someone from our team will be giving you a call at 231-299-1295 to get you set up on a different date </a> — we're happy to help find the right adventure for you and your group.</p>
     <p>We hope to ride the wind with you soon!</p>
     <p>— The Nodin Adventures Team</p>
     <a href="${SITE_URL}/index.html#contact" class="btn">Check Other Dates</a>
