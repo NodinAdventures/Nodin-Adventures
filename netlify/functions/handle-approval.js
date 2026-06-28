@@ -98,7 +98,7 @@ exports.handler = async (event) => {
       ${phone ? `<div><label>Phone: </label>${phone}</div>` : ""}
     </div>
     <p style="font-size:13px; color:#666;">Please arrive a few minutes early. A physical waiver must be signed at pickup.<br>Questions? Reply to this email or reach us at <a href="mailto:${OWNER_EMAIL}" style="color:#9e3a18;">${OWNER_EMAIL}</a>.</p>
-    <a href="${SITE_URL}" class="btn">Visit nodinadventures.com</a>
+   <a href="https://square.link/u/BD0ru0UD" style="display:inline-block; background:#1a7870; color:#fff; padding:14px 36px; border-radius:8px; text-decoration:none; font-weight:700; font-size:15px; margin-top:20px;">Complete Your Payment</a>
   </div>
   <div class="footer">© 2026 Nodin Adventures, LLC · Mon–Sun 8AM–7PM · nodinadventures.com</div>
 </div>
